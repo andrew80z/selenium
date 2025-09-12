@@ -44,16 +44,31 @@ public class WebTestSetup {
 
     // Setup WebDriver based on browser type
     WebDriver driver;
+    BrowserConfig.BrowserConfiguration config = BrowserConfig.getBrowserConfig(browserType);
+
     switch (browserType) {
       case FIREFOX:
-        WebDriverManager.firefoxdriver().setup();
+        if ("latest".equals(config.driverVersion)) {
+          WebDriverManager.firefoxdriver().setup();
+        } else {
+          WebDriverManager.firefoxdriver().driverVersion(config.driverVersion).setup();
+        }
         driver =
-            options != null ? new FirefoxDriver((FirefoxOptions) options) : new FirefoxDriver();
+            config.options != null
+                ? new FirefoxDriver((FirefoxOptions) config.options)
+                : new FirefoxDriver();
         break;
       case CHROME:
       default:
-        WebDriverManager.chromedriver().setup();
-        driver = options != null ? new ChromeDriver((ChromeOptions) options) : new ChromeDriver();
+        if ("latest".equals(config.driverVersion)) {
+          WebDriverManager.chromedriver().setup();
+        } else {
+          WebDriverManager.chromedriver().driverVersion(config.driverVersion).setup();
+        }
+        driver =
+            config.options != null
+                ? new ChromeDriver((ChromeOptions) config.options)
+                : new ChromeDriver();
         break;
     }
 

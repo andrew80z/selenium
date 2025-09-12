@@ -1,11 +1,9 @@
 sampleTest\testFiles\WebTests.class
-sampleTest\config\BrowserType.class
 sampleTest\config\WebTestSetup$SetupResult.class
 sampleTest\pageFiles\CheckboxesPage.class
 sampleTest\testFiles\BaseTest.class
 sampleTest\config\BrowserConfig$1.class
 sampleTest\pageFiles\CheckboxesPage$Locators.class
-sampleTest\config\BrowserConfig.class
 sampleTest\pageFiles\ABTestingPage.class
 sampleTest\config\web_test_setup$1.class
 sampleTest\config\web_test_setup.class

@@ -1,5 +1,8 @@
 {
     "chrome": {
+        "driver": {
+            "version": "latest"
+        },
         "options": {
             "arguments": [
                 "--start-maximized",
@@ -14,6 +17,9 @@
         }
     },
     "firefox": {
+        "driver": {
+            "version": "latest"
+        },
         "options": {
             "arguments": [
                 "-width=1920",
