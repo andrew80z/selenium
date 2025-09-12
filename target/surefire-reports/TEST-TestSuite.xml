@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="15.248" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="14.988" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="webdriver.chrome.driver" value="C:\Users\hdmai\.cache\selenium\chromedriver\win64\140.0.7339.82\chromedriver.exe"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
-    <property name="sun.java.command" value="C:\Users\hdmai\AppData\Local\Temp\surefire1443273269798547483\surefirebooter7537433762391219075.jar C:\Users\hdmai\AppData\Local\Temp\surefire1443273269798547483 2025-09-13T00-54-16_995-jvmRun1 surefire5405012548040188605tmp surefire_016175058057441888333tmp"/>
+    <property name="sun.java.command" value="C:\Users\hdmai\AppData\Local\Temp\surefire2171164334245002438\surefirebooter691597238322728467.jar C:\Users\hdmai\AppData\Local\Temp\surefire2171164334245002438 2025-09-13T00-57-17_507-jvmRun1 surefire6619908488295813562tmp surefire_014849320623877442586tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\hdmai\Documents\GitHub\selenium\target\test-classes;C:\Users\hdmai\Documents\GitHub\selenium\target\classes;C:\Users\hdmai\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\hdmai\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\hdmai\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\hdmai\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\hdmai\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\hdmai\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\hdmai\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\hdmai\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\hdmai\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\hdmai\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\hdmai\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\hdmai\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hdmai\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\hdmai\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\hdmai\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\hdmai\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\hdmai\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\hdmai\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\hdmai\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\hdmai\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\hdmai\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar;C:\Users\hdmai\.m2\repository\org\slf4j\slf4j-api\2.0.10\slf4j-api-2.0.10.jar;C:\Users\hdmai\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\hdmai\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\hdmai\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\hdmai\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\hdmai\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\hdmai\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\hdmai\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\hdmai\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\hdmai\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\hdmai\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\hdmai\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\hdmai\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\hdmai\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\hdmai\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\hdmai\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\hdmai\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\hdmai\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\hdmai\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\hdmai\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\hdmai\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\hdmai\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.7\jackson-core-2.12.7.jar;C:\Users\hdmai\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.7.1\jackson-databind-2.12.7.1.jar;C:\Users\hdmai\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.7\jackson-annotations-2.12.7.jar;C:\Users\hdmai\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\hdmai\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\hdmai\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\hdmai\.m2\repository\ch\qos\logback\logback-classic\1.2.12\logback-classic-1.2.12.jar;C:\Users\hdmai\.m2\repository\ch\qos\logback\logback-core\1.2.12\logback-core-1.2.12.jar;C:\Users\hdmai\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\hdmai\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;C:\Users\hdmai\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar;C:\Users\hdmai\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;C:\Users\hdmai\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\hdmai\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\hdmai\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\hdmai\.m2\repository\com\google\inject\guice\4.2.3\guice-4.2.3.jar;C:\Users\hdmai\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\hdmai\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -35,7 +35,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="org.uncommons.reportng.logOutputReport" value="true"/>
     <property name="org.uncommons.reportng.show-expected-exceptions" value="true"/>
-    <property name="surefire.real.class.path" value="C:\Users\hdmai\AppData\Local\Temp\surefire1443273269798547483\surefirebooter7537433762391219075.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\hdmai\AppData\Local\Temp\surefire2171164334245002438\surefirebooter691597238322728467.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24.0.1+9-30"/>
@@ -56,7 +56,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="env" value="qa"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="headless" value="true"/>
+    <property name="headless" value="false"/>
     <property name="native.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-24\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files\WireGuard\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Windows.old\Users\hdmai\AppData\Roaming\Python\Python312\Scripts;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\hdmai\AppData\Local\Microsoft\WindowsApps;C:\Users\hdmai\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\hdmai\AppData\Local\GitHubDesktop\bin;C:\Users\hdmai\AppData\Roaming\npm;C:\apache\apache-maven-3.9.10\bin;;c:\Users\hdmai\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
@@ -66,7 +66,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="testABTestPage" classname="sampleTest.testFiles.WebTests" time="1.587">
+  <testcase name="testABTestPage" classname="sampleTest.testFiles.WebTests" time="1.529">
     <system-out><![CDATA[[TestNG] [WARN] Ignoring duplicate listener : org.uncommons.reportng.HTMLReporter
 [TestNG] [WARN] Ignoring duplicate listener : org.uncommons.reportng.JUnitXMLReporter
 ========== TEST START: A/B Test Page Verification ========== <br><br>
@@ -95,15 +95,15 @@ SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 SLF4J(W): Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
 SLF4J(W): Ignoring binding found at [jar:file:/C:/Users/hdmai/.m2/repository/ch/qos/logback/logback-classic/1.2.12/logback-classic-1.2.12.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J(W): See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
-Starting ChromeDriver 140.0.7339.82 (bc93617e21c39ed4afa6ce1c08554e5aa76d132d-refs/branch-heads/7339_41@{#5}) on port 63101
+Starting ChromeDriver 140.0.7339.82 (bc93617e21c39ed4afa6ce1c08554e5aa76d132d-refs/branch-heads/7339_41@{#5}) on port 31763
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 63101.
-Sep 13, 2025 12:54:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 31763.
+Sep 13, 2025 12:57:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="testCheckboxesPage" classname="sampleTest.testFiles.WebTests" time="1.616">
+  <testcase name="testCheckboxesPage" classname="sampleTest.testFiles.WebTests" time="1.665">
     <system-out><![CDATA[========== TEST START: Checkboxes Page Verification ==========<br><br>
 Step 1: Test Configuration<br>
 • Base URL: https://the-internet.herokuapp.com<br><br>
@@ -127,11 +127,11 @@ Step 6: Checkbox Interaction<br>
 • Checkbox 1 successfully selected<br><br>
 ========== TEST COMPLETED SUCCESSFULLY ==========<br>
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 140.0.7339.82 (bc93617e21c39ed4afa6ce1c08554e5aa76d132d-refs/branch-heads/7339_41@{#5}) on port 6952
+    <system-err><![CDATA[Starting ChromeDriver 140.0.7339.82 (bc93617e21c39ed4afa6ce1c08554e5aa76d132d-refs/branch-heads/7339_41@{#5}) on port 39708
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 6952.
-Sep 13, 2025 12:54:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 39708.
+Sep 13, 2025 12:57:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
