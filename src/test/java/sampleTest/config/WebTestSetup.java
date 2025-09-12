@@ -44,16 +44,35 @@ public class WebTestSetup {
 
     // Setup WebDriver based on browser type
     WebDriver driver;
+    BrowserConfig.BrowserConfiguration config = BrowserConfig.getBrowserConfig(browserType);
+
     switch (browserType) {
       case FIREFOX:
-        WebDriverManager.firefoxdriver().setup();
+        if ("latest".equals(config.driverVersion)) {
+          WebDriverManager.firefoxdriver().setup();
+        } else {
+          WebDriverManager.firefoxdriver().driverVersion(config.driverVersion).setup();
+        }
         driver =
-            options != null ? new FirefoxDriver((FirefoxOptions) options) : new FirefoxDriver();
+            config.options != null
+                ? new FirefoxDriver((FirefoxOptions) config.options)
+                : new FirefoxDriver();
         break;
       case CHROME:
       default:
-        WebDriverManager.chromedriver().setup();
-        driver = options != null ? new ChromeDriver((ChromeOptions) options) : new ChromeDriver();
+        // Initialize ChromeDriver with compatible version
+        WebDriverManager.chromedriver()
+            .clearDriverCache()
+            .clearResolutionCache()
+            .browserVersion("140")
+            .setup();
+        ChromeOptions chromeOptions = (ChromeOptions) config.options;
+        // Add required arguments for CI compatibility
+        chromeOptions.addArguments("--headless");
+        chromeOptions.addArguments("--disable-gpu");
+        chromeOptions.addArguments("--no-sandbox");
+        chromeOptions.addArguments("--disable-dev-shm-usage");
+        driver = new ChromeDriver(chromeOptions);
         break;
     }
 

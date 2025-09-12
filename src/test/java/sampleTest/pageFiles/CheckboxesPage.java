@@ -37,12 +37,12 @@ public class CheckboxesPage {
   }
 
   public WebElement getCheckbox(int index) {
-    WebDriverWait wait = new WebDriverWait(driver, java.time.Duration.ofSeconds(10));
+    WebDriverWait wait = new WebDriverWait(driver, 10);
     return wait.until(ExpectedConditions.presenceOfElementLocated(Locators.checkboxByIndex(index)));
   }
 
   public List<WebElement> getAllCheckboxes() {
-    WebDriverWait wait = new WebDriverWait(driver, java.time.Duration.ofSeconds(10));
+    WebDriverWait wait = new WebDriverWait(driver, 10);
     return wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(Locators.allCheckboxes()));
   }
 

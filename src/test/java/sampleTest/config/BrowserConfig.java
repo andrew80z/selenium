@@ -10,18 +10,31 @@ public class BrowserConfig {
 
   private static final String CONFIG_FILE = "/dataFiles/browser-config.json";
 
-  public static Object getBrowserOptions(BrowserType browserType) throws IOException {
+  public static class BrowserConfiguration {
+
+    public String driverVersion;
+    public Object options;
+  }
+
+  public static BrowserConfiguration getBrowserConfig(BrowserType browserType) throws IOException {
     ObjectMapper mapper = new ObjectMapper();
     JsonNode config = mapper.readTree(BrowserConfig.class.getResourceAsStream(CONFIG_FILE));
     JsonNode browserConfig = config.get(browserType.toString().toLowerCase());
 
+    BrowserConfiguration configuration = new BrowserConfiguration();
+    configuration.driverVersion = browserConfig.path("driver").path("version").asText("latest");
+
     switch (browserType) {
       case FIREFOX:
-        return createFirefoxOptions(browserConfig);
+        configuration.options = createFirefoxOptions(browserConfig);
+        break;
       case CHROME:
       default:
-        return createChromeOptions(browserConfig);
+        configuration.options = createChromeOptions(browserConfig);
+        break;
     }
+
+    return configuration;
   }
 
   private static ChromeOptions createChromeOptions(JsonNode config) {

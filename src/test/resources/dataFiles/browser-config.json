@@ -1,8 +1,11 @@
 {
     "chrome": {
+        "driver": {
+            "version": "latest"
+        },
         "options": {
             "arguments": [
-                "--start-maximized",
+                "--headless",
                 "--disable-gpu",
                 "--no-sandbox",
                 "--disable-dev-shm-usage"
@@ -14,6 +17,9 @@
         }
     },
     "firefox": {
+        "driver": {
+            "version": "latest"
+        },
         "options": {
             "arguments": [
                 "-width=1920",

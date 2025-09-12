@@ -43,9 +43,9 @@ public class BaseTest {
     logger.info("Setting up test with browser: {} in environment: {}", browserName, env);
 
     BrowserType browserType = BrowserType.fromString(browserName);
-    Object options = BrowserConfig.getBrowserOptions(browserType);
+    BrowserConfig.BrowserConfiguration config = BrowserConfig.getBrowserConfig(browserType);
 
-    WebTestSetup.SetupResult result = WebTestSetup.setup(env, options, browserType);
+    WebTestSetup.SetupResult result = WebTestSetup.setup(env, config.options, browserType);
     this.driver = result.driver;
     this.baseUrl = result.web_url;
 
