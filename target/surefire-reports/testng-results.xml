@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-12T22:07:16 CEST" name="Surefire suite" finished-at="2025-09-12T22:07:21 CEST" duration-ms="4475">
+    <groups>
+    </groups>
+    <test started-at="2025-09-12T22:07:16 CEST" name="Surefire test" finished-at="2025-09-12T22:07:21 CEST" duration-ms="4475">
+      <class name="sampleTest.testFiles.WebTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:sampleTest.testFiles.WebTests@667a738]" started-at="2025-09-12T22:07:16 CEST" name="setup" finished-at="2025-09-12T22:07:18 CEST" duration-ms="2057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testABTestPage()[pri:0, instance:sampleTest.testFiles.WebTests@667a738]" started-at="2025-09-12T22:07:18 CEST" name="testABTestPage" finished-at="2025-09-12T22:07:20 CEST" duration-ms="1841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testABTestPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:sampleTest.testFiles.WebTests@667a738]" started-at="2025-09-12T22:07:20 CEST" name="teardown" finished-at="2025-09-12T22:07:21 CEST" duration-ms="558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- sampleTest.testFiles.WebTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
