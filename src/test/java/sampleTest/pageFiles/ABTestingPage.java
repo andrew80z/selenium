@@ -15,7 +15,7 @@ public class ABTestingPage {
   }
 
   public WebElement getExampleElement() {
-    WebDriverWait wait = new WebDriverWait(driver, java.time.Duration.ofSeconds(10));
+    WebDriverWait wait = new WebDriverWait(driver, 10);
     return wait.until(ExpectedConditions.presenceOfElementLocated(By.className("example")));
   }
 

@@ -11,8 +11,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <selenium.version>4.18.1</selenium.version>
-        <webdrivermanager.version>5.6.3</webdrivermanager.version>
+        <selenium.version>3.141.59</selenium.version>
+        <webdrivermanager.version>4.4.3</webdrivermanager.version>
         <browser>chrome</browser>
         <env>qa</env>
         <checkstyle.version>8.45.1</checkstyle.version>
@@ -101,13 +101,6 @@
             <artifactId>guice</artifactId>
             <version>5.1.0</version>
             <scope>test</scope>
-        </dependency>
-
-        <!-- Selenium DevTools v121 -->
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-devtools-v121</artifactId>
-            <version>${selenium.version}</version>
         </dependency>
     </dependencies>
 
@@ -200,6 +193,7 @@
                     <systemPropertyVariables>
                         <browser>${browser}</browser>
                         <env>${env}</env>
+                        <headless>true</headless>
                         <org.uncommons.reportng.escape-output>false</org.uncommons.reportng.escape-output>
                         <org.uncommons.reportng.title>Selenium Test Report</org.uncommons.reportng.title>
                         <org.uncommons.reportng.logOutputReport>true</org.uncommons.reportng.logOutputReport>
