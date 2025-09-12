@@ -17,6 +17,7 @@ public class CheckboxesPage {
       return By.xpath(String.format("//form[@id='%s']/input[%d]", CHECKBOXES_FORM_ID, index));
     }
 
+    @SuppressWarnings("unused")
     public static By checkboxLabelByIndex(int index) {
       return By.xpath(
           String.format(
