@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Web Tests"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="5"
+           time="0.048">
+  <properties />
+  
+            <testcase name="teardown" time="0.0" classname="sampleTest.testFiles.WebTests">
+          <skipped />
+    </testcase>
+            <testcase name="teardown" time="0.0" classname="sampleTest.testFiles.WebTests">
+          <skipped />
+    </testcase>
+            <testcase name="setup" time="0.0" classname="sampleTest.testFiles.WebTests">
+          <skipped />
+    </testcase>
+            <testcase name="testABTestPage" time="0.0" classname="sampleTest.testFiles.WebTests">
+          <skipped />
+    </testcase>
+            <testcase name="testCheckboxesPage" time="0.0" classname="sampleTest.testFiles.WebTests">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

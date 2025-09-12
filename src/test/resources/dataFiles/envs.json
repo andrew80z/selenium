@@ -1,0 +1,26 @@
+{
+    "dev": {
+        "endpoint": "/v1/breweries/_DEV",
+        "postUrl": "https://jsonplaceholder.typicode.com/posts",
+        "webURL": "https://the-internet.herokuapp.com",
+        "description": "Development environment"
+    },
+    "qa": {
+        "endpoint": "/v1/breweries/_QA",
+        "postUrl": "https://api.restful-api.dev/objects",
+        "webURL": "https://the-internet.herokuapp.com",
+        "description": "QA Testing environment"
+    },
+    "staging": {
+        "endpoint": "/v1/breweries/_STAGING",
+        "postUrl": "https://api.restful-api.dev/objects",
+        "webURL": "https://the-internet.herokuapp.com",
+        "description": "Staging/Pre-production environment"
+    },
+    "prod": {
+        "endpoint": "/v1/breweries",
+        "postUrl": "https://api.restful-api.dev/objects",
+        "webURL": "https://the-internet.herokuapp.com",
+        "description": "Production environment"
+    }
+}
