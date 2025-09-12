@@ -1,10 +1,6 @@
 name: Selenium Tests
 
 on:
-  push:
-    branches: [ "main", "master" ]
-  pull_request:
-    branches: [ "main", "master" ]
   workflow_dispatch:
     inputs:
       browser:
@@ -65,13 +61,15 @@ jobs:
 
       - name: Upload Test Reports
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: test-reports-${{ inputs.browser || 'chrome' }}-${{ inputs.environment || 'qa' }}
           path: |
             target/surefire-reports/
             test-output/
           retention-days: 30
+          compression-level: 9 # Maximum compression
+          overwrite: true # Override if exists
 
       - name: Test Summary
         if: always()
