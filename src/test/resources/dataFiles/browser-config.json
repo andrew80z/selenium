@@ -5,7 +5,7 @@
         },
         "options": {
             "arguments": [
-                "--start-maximized",
+                "--headless",
                 "--disable-gpu",
                 "--no-sandbox",
                 "--disable-dev-shm-usage"
