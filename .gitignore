@@ -10,9 +10,9 @@ buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
 
-# Compiled class files
-*.class
 
+# copilot instructions
+copilot-instructions.md
 # Log files
 *.log
 logs/
