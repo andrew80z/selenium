@@ -1,0 +1,16 @@
+23:08:15.500 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : org.uncommons.reportng.HTMLReporter
+23:08:15.503 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : org.uncommons.reportng.HTMLReporter
+23:08:15.503 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : org.uncommons.reportng.HTMLReporter
+23:08:15.503 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : org.uncommons.reportng.JUnitXMLReporter
+23:08:15.503 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : org.uncommons.reportng.JUnitXMLReporter
+23:08:15.503 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : org.uncommons.reportng.JUnitXMLReporter
+==============================================================================================
+Total Passed: 0(+0), Failures: 0(+0), Skips: 2(+2)
+==============================================================================================
+==============================================================================================
+Total Passed: 0(+0), Failures: 0(+0), Skips: 4(+2)
+==============================================================================================
+23:08:15.663 [main] INFO  org.uncommons.reportng.HTMLReporter - ****************************************
+23:08:15.664 [main] INFO  org.uncommons.reportng.HTMLReporter - Generate reportNG report
+23:08:15.664 [main] INFO  org.uncommons.reportng.HTMLReporter - Path : C:\Users\hdmai\Documents\GitHub\selenium\report\html
+23:08:15.811 [main] INFO  org.uncommons.reportng.HTMLReporter - ****************************************

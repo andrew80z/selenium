@@ -1,0 +1,29 @@
+{
+    "chrome": {
+        "options": {
+            "arguments": [
+                "--start-maximized",
+                "--disable-gpu",
+                "--no-sandbox",
+                "--disable-dev-shm-usage"
+            ],
+            "preferences": {
+                "download.default_directory": "downloads",
+                "profile.default_content_settings.popups": 0
+            }
+        }
+    },
+    "firefox": {
+        "options": {
+            "arguments": [
+                "-width=1920",
+                "-height=1080"
+            ],
+            "preferences": {
+                "browser.download.folderList": 2,
+                "browser.download.dir": "downloads",
+                "browser.helperApps.neverAsk.saveToDisk": "application/pdf,application/x-pdf"
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 0.572 s <<< FAILURE! - in TestSuite
+sampleTest.testFiles.WebTests.setup  Time elapsed: 0.398 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/util/JacksonFeature
+	at sampleTest.testFiles.WebTests.setup(WebTests.java:31)
+Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.core.util.JacksonFeature
+	at sampleTest.testFiles.WebTests.setup(WebTests.java:31)
+
